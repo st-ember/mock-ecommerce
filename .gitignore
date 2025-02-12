@@ -1,0 +1,22 @@
+.env
+.env.*
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.a
+
+# Build and cache directories
+/bin/
+/obj/
+/pkg/
+*.o
+*.a
+*.lo
+*.la
+*.lai
+*.gch
