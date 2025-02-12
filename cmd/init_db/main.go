@@ -1,4 +1,4 @@
-package api
+package initdb
 
 import (
 	"fmt"
@@ -10,6 +10,8 @@ import (
 )
 
 func main() {
+	fmt.Println("Initializing DB Schema and Content")
+
 	fmt.Println("Connecting to Postgres")
 
 	if err := godotenv.Load(); err != nil {
