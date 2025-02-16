@@ -20,3 +20,5 @@
 *.la
 *.lai
 *.gch
+
+.DS_Store
